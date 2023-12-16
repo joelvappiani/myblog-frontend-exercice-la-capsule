@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  width: 40rem;
+  border: none;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.button {
+  width: 5rem;
+  margin-left: 10px;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.postsList {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
